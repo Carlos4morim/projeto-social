@@ -14,9 +14,11 @@ body{
     background-size: cover;
 }
 main{
-    height: 100vh;
+    height: 98vh;
     position: relative;
 
+    display: flex;
+    justify-content: end;
 }
 section#telefone{
     height: 627px;
@@ -35,4 +37,28 @@ section#telefone{
 
 #telefone > iframe{
     height: 478px;
+    width: 271px;
+}
+#botoes{
+    padding-top: 10px;
+}
+#botoes > ul > li{
+    padding-bottom: 20px;
+    list-style: none;
+    padding-right: 10px;
+}
+#botoes > ul > li > a > img{
+    height: 50px;
+    border-radius: 50%;
+    
+}
+#botoes > ul > li > a > img:hover{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 3px solid rgb(197, 197, 197);
+    background: green;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.774);
+    transition: all 0.7s;
+    transform: rotate(360deg);
 }
