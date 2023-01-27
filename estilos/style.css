@@ -45,7 +45,7 @@ section#telefone{
 #botoes > ul > li{
     padding-bottom: 20px;
     list-style: none;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 #botoes > ul > li > a > img{
     height: 50px;
